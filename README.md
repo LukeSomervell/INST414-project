@@ -44,6 +44,8 @@ The project compares performance across models and demonstrates the strengths of
 
 ---
 
+
+
 ## 🧠 Classical Model Results
 
 | Model              | Accuracy | F1 Score |
@@ -124,6 +126,22 @@ Optional for notebook execution:
 - `jupyterlab==4.4.1`
 
 ---
+
+## ▶️ How to Run the Full Pipeline
+
+1. Set up your environment (see Environment Setup section above).
+2. Run the notebooks in this order:
+   - `notebooks/data_cleaning.ipynb`
+   - `notebooks/Feature_engineering.ipynb`
+   - `notebooks/sprt3_classical_models.ipynb`
+   - `notebooks/sprint3_bert_modeling_training_REFACTORED_FIXED.ipynb`
+3. (Optional) For modular code:
+   - Explore `workingproject/` to run each step from the command line.
+
+---
+
+
+
 
 ## 👤 Author
 
